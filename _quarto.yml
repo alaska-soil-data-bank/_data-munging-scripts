@@ -1,0 +1,34 @@
+project:
+  type: book
+  # change output-dir to "docs" to publish to gh pages
+  output-dir: docs
+
+book:
+  title: "_data_munging_scripts"
+  author: "N.A. Jelinski, I.H. Ainuddin"
+  date: "22-October-2024"
+  cover-image: "aksdb-badge-02.png"
+  
+  chapters:
+    - index.qmd
+    #- general-munging-procedures.qmd
+    - blm-aim-datamunging-test.qmd
+    #- deliverable1.qmd
+    #- deliverable2.qmd
+    #- deliverable3.qmd
+    #- authorship-guidelines.qmd
+    #- summary.qmd
+    #- references.qmd
+  #appendices:
+    #- co-authorship-template.qmd
+    #- data-use-and-sharing.qmd
+
+#bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
